@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+:root{
+    --bgColor: #333;
+    --textPrimary: #fff;
+    --textSecondary: #666;
+    --primaryColor: #fd4;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bgColor);
+    color: var(--textPrimary);
+}
+main{
+    width: 600px;
+    margin: 50px;
+}
+h1{
+    color: var(--primaryColor);
+}
+h1 svg {
+    transform: scale(2);
+    width: 40px;
+    fill: var(--primaryColor);
+}
