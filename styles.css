@@ -9,10 +9,11 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--bgColor);
     color: var(--textPrimary);
+    font-size: 1.4rem;
 }
 main{
     width: 600px;
-    margin: 50px;
+    margin: 50px auto;
 }
 h1{
     color: var(--primaryColor);
@@ -21,4 +22,22 @@ h1 svg {
     transform: scale(2);
     width: 40px;
     fill: var(--primaryColor);
+}
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#button{
+    text-align: right;
+}
+#info{
+    color: var(--primaryColor);
+}
+button{
+    background: rgba(255, 255, 255, .2);
+    border: 0;
+    color: rgba(255, 255, 255, .5);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
