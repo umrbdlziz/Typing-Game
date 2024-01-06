@@ -1,2 +1,10 @@
+
 # Typing-Game
-simple test typing game like monkeytype
+
+A simple typing game like monkeytype
+
+
+## Demo
+
+https://monkeytype2.netlify.app/
+
